@@ -1,0 +1,6 @@
+D:\Workspace\Design Patterns e Solid\Udemy\Solid\OCP\bin\Debug\OCP.exe.config
+D:\Workspace\Design Patterns e Solid\Udemy\Solid\OCP\bin\Debug\OCP.exe
+D:\Workspace\Design Patterns e Solid\Udemy\Solid\OCP\bin\Debug\OCP.pdb
+D:\Workspace\Design Patterns e Solid\Udemy\Solid\OCP\obj\Debug\OCP.csproj.CoreCompileInputs.cache
+D:\Workspace\Design Patterns e Solid\Udemy\Solid\OCP\obj\Debug\OCP.exe
+D:\Workspace\Design Patterns e Solid\Udemy\Solid\OCP\obj\Debug\OCP.pdb

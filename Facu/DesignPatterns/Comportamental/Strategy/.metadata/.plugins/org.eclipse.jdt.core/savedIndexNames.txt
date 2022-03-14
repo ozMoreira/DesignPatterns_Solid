@@ -1,0 +1,17 @@
+INDEX VERSION 1.131+D:\Workspace\Design Patterns e Solid\Facu\DesignPatterns\Comportamental\Strategy\.metadata\.plugins\org.eclipse.jdt.core
+4052651316.index
+4131957649.index
+3781874053.index
+4076391976.index
+1573253244.index
+2821453596.index
+3714500129.index
+4046039498.index
+3678491695.index
+2596851575.index
+204434604.index
+3666466803.index
+1735390130.index
+1748830497.index
+410700994.index
+3558495079.index

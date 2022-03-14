@@ -1,0 +1,12 @@
+package br.com.laminar.comportamental.strategy.situacao;
+
+import br.com.laminar.comportamental.strategy.Pedido;
+
+public class Aberto implements Situacao{
+
+	@Override
+	public void abrirChamado(Pedido pedido) {
+		System.out.println("Chamado aberto para departamento FINANCEIRO");
+	}
+
+}

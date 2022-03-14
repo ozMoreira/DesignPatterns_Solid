@@ -1,0 +1,23 @@
+package br.com.laminar.comportamental.strategy;
+
+import java.math.BigDecimal;
+
+public class Pedido {
+
+	private BigDecimal valor;
+	private Integer totalDeItens;
+	private String situacao;
+	
+	public Pedido(BigDecimal valor, int totalDeItens) {
+		this.valor = valor;
+		this.totalDeItens = totalDeItens;
+	}
+	
+	public BigDecimal getValor() {
+		return valor;
+	}
+	
+	public Integer getTotalDeItens() {
+		return totalDeItens;
+	}
+}

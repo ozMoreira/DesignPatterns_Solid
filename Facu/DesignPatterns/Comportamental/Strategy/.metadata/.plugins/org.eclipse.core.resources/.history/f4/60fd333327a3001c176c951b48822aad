@@ -1,0 +1,13 @@
+package br.com.laminar.comportamental.strategy.situacao;
+
+import br.com.laminar.comportamental.strategy.Pedido;
+
+public class Entregue implements Situacao {
+
+	@Override
+	public void abrirChamado(Pedido pedido) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

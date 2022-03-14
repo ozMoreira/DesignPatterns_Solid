@@ -1,0 +1,12 @@
+package br.com.laminar.comportamental.strategy;
+
+import java.math.BigDecimal;
+
+public class PedidoProxy extends Pedido {
+
+	public PedidoProxy(BigDecimal valor, int totalDeItens) {
+		super(valor, totalDeItens);
+		// TODO Auto-generated constructor stub
+	}
+
+}

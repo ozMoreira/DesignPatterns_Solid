@@ -1,0 +1,15 @@
+package br.com.laminar.comportamental.strategy;
+
+import java.math.BigDecimal;
+
+public class PedidoProxy extends Pedido {
+
+	private Pedido pedido;
+
+	public PedidoProxy(Pedido pedido) {
+		super(pedido.getValor(), pedido.getTotalDeItens());
+		this.pedido = pedido;
+		// TODO Auto-generated constructor stub
+	}
+
+}

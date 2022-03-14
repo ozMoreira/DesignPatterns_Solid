@@ -1,0 +1,27 @@
+package br.com.laminar.comportamental.strategy.teste;
+
+import java.math.BigDecimal;
+
+import br.com.laminar.comportamental.strategy.Pedido;
+import br.com.laminar.comportamental.strategy.imposto.CalculadoraDeImposto;
+import br.com.laminar.comportamental.strategy.imposto.Icms;
+import br.com.laminar.comportamental.strategy.imposto.Iss;
+
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		Pedido pedido = new Pedido(new BigDecimal(1000.00), 1);
+		CalculadoraDeImposto c = new CalculadoraDeImposto();
+		
+		c.setImposto(new Icms());
+		BigDecimal imposto = c.calcula(pedido);
+		System.out.println(imposto);
+		
+		c.setImposto(new Iss(null));
+		imposto = c.calcula(pedido);
+		System.out.println(imposto);
+	}
+
+}

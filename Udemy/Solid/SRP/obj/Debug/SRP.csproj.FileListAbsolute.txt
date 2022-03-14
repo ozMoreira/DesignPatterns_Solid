@@ -1,0 +1,7 @@
+D:\Workspace\Design Patterns e Solid\Udemy\Solid\SRP\bin\Debug\SRP.exe.config
+D:\Workspace\Design Patterns e Solid\Udemy\Solid\SRP\bin\Debug\SRP.exe
+D:\Workspace\Design Patterns e Solid\Udemy\Solid\SRP\bin\Debug\SRP.pdb
+D:\Workspace\Design Patterns e Solid\Udemy\Solid\SRP\obj\Debug\SRP.csproj.AssemblyReference.cache
+D:\Workspace\Design Patterns e Solid\Udemy\Solid\SRP\obj\Debug\SRP.csproj.CoreCompileInputs.cache
+D:\Workspace\Design Patterns e Solid\Udemy\Solid\SRP\obj\Debug\SRP.exe
+D:\Workspace\Design Patterns e Solid\Udemy\Solid\SRP\obj\Debug\SRP.pdb

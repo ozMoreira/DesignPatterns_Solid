@@ -1,0 +1,8 @@
+package br.com.laminar.comportamental.strategy.situacao.copy;
+
+import br.com.laminar.comportamental.strategy.Pedido;
+
+public interface Situacao {
+
+	public void abrirChamado(Pedido pedido);
+}

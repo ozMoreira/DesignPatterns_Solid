@@ -1,0 +1,26 @@
+package br.com.laminar.comportamental.strategy.situacao;
+
+import br.com.laminar.comportamental.strategy.Pedido;
+
+public abstract class Situacao {
+
+	public abstract void abrirChamado(Pedido pedido);
+	
+	public void pagar(){
+		throw new RuntimeException("Não pode transitar para PAGO");
+	}
+	
+
+	public void entregar(){
+		throw new RuntimeException("Não pode transitar para ENTREGUE");
+	}
+	
+
+	public void cancelar(){
+		throw new RuntimeException("Não pode transitar para CANCELAR");
+	}
+	
+	public void reabrir(){
+		throw new RuntimeException("Não pode transitar para ABERTO");
+	}
+}

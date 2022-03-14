@@ -1,0 +1,21 @@
+package br.com.laminar.comportamental.strategy.teste;
+
+import java.math.BigDecimal;
+
+import br.com.laminar.comportamental.strategy.EmailListener;
+import br.com.laminar.comportamental.strategy.Pedido;
+import br.com.laminar.comportamental.strategy.PedidoProxy;
+
+public class TestaProxy {
+
+	public static void main(String[] args) {
+
+		Pedido pedido = new PedidoProxy( new Pedido(new BigDecimal(100),1));
+		pedido.getManager().subscribe(new EmailListener());
+		pedido.getManager().subscribe(new LogListener());
+		System.out.println(pedido.getValor());
+		
+		pedido.pagar();
+	}
+
+}

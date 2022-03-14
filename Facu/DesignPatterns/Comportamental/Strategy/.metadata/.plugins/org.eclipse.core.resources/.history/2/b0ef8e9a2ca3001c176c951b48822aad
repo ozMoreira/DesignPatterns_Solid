@@ -1,0 +1,17 @@
+package br.com.laminar.comportamental.strategy;
+
+import java.util.List;
+
+public class EventManager { //handler
+	
+	private List<SituacaoListener> listeners;
+	
+	public void subscribe(SituacaoListener listener) {
+		listeners.add(listener);
+	}
+	
+	public void unsubscribe(SituacaoListener listener) {
+		listeners.remove(listener);
+	}
+
+}

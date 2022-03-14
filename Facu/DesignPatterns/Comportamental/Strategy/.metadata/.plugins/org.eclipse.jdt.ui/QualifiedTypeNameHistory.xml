@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="br.com.laminar.comportamental.strategy.imposto.CalculadoraDeImposto"/>
+    <fullyQualifiedTypeName name="sun.security.x509.IssuerAlternativeNameExtension"/>
+    <fullyQualifiedTypeName name="br.com.laminar.comportamental.strategy.imposto.Iss"/>
+    <fullyQualifiedTypeName name="br.com.laminar.comportamental.strategy.imposto.Icms"/>
+    <fullyQualifiedTypeName name="br.com.laminar.comportamental.strategy.desconto.CalculadoraDeDesconto"/>
+    <fullyQualifiedTypeName name="java.math.RoundingMode"/>
+    <fullyQualifiedTypeName name="br.com.laminar.comportamental.strategy.situacao.Aberto"/>
+    <fullyQualifiedTypeName name="br.com.laminar.comportamental.strategy.situacao.Pago"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="br.com.laminar.comportamental.strategy.SituacaoListener"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="br.com.laminar.comportamental.strategy.Pedido"/>
+    <fullyQualifiedTypeName name="br.com.laminar.comportamental.strategy.EmailListener"/>
+    <fullyQualifiedTypeName name="br.com.laminar.comportamental.strategy.PedidoProxy"/>
+</qualifiedTypeNameHistroy>

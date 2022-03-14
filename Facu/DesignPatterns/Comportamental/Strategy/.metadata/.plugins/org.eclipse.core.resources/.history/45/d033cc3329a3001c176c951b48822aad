@@ -1,0 +1,22 @@
+package br.com.laminar.comportamental.strategy.situacao;
+
+import br.com.laminar.comportamental.strategy.Pedido;
+
+public abstract class Situacao {
+
+	public abstract void abrirChamado(Pedido pedido);
+	
+	public void pagar(){
+		
+	}
+	
+
+	public void entregar(){
+		
+	}
+	
+
+	public void cancelar(){
+		
+	}
+}
